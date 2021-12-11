@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "collect-c-temp-default": "/pages/post/collect-c-temp-default",
+    "c-temp": "/components/c-temp/c-temp"
+  },
+  "component": true
+}

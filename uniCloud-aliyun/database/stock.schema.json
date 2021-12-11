@@ -1,0 +1,37 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["user_id","post_id"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true,
+		"count": true // 必须登录
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-user._id",
+			"forceDefaultValue":{
+				"$env":"uid"
+			},
+			"description":"收藏者id"
+		},
+		"post_id": {
+			"bsonType":"string",
+			"foreignKey":"posts._id",
+			"description":"被收藏的帖子id"
+		},
+		"create_date": {
+			"bsonType":"timestamp",
+			"forceDefaultValue": {
+				"$env":"now"
+			},
+			"description":"收藏时间"
+		}
+	}
+}

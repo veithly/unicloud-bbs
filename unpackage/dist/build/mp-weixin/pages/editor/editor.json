@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "c-sticky": "/components/c-sticky/c-sticky",
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "mp-html": "/components/mp-html/mp-html",
+    "c-editor-topics": "/components/c-editor-topics/c-editor-topics",
+    "c-editor-tool-bar": "/components/c-editor-tool-bar/c-editor-tool-bar",
+    "c-editor-release-popup": "/components/c-editor-release-popup/c-editor-release-popup"
+  }
+}

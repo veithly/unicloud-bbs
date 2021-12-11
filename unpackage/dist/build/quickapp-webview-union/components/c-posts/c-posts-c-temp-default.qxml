@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['praise',['$0','$1'],['op',[['values','_id',v.$orig._id]]]]]]]}}" class="{{['data-v-cc386fa6',v.m0]}}" bindtap="__e"><text class="icon-dianzan mr-1 action-icon data-v-cc386fa6"></text><block qa:if="{{v.$orig.praiseNum}}"><text class="data-v-cc386fa6">{{v.$orig.praiseNum}}</text></block></view>

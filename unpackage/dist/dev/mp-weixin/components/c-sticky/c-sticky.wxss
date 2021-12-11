@@ -1,0 +1,7 @@
+
+.main.data-v-23b46138 {
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 98;
+}
+

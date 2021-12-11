@@ -1,0 +1,1 @@
+<c-button class="{{['px-3','bg-white',f_id?'main-bg-color text-white font-sm':'bg-white']}}" bind:onTap="__e" vue-id="9299b780-1" data-event-opts="{{[['^onTap',[['resolveFollow']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">{{''+(loading?'loading':f_id?'已关注':'关注')+''}}</c-button>

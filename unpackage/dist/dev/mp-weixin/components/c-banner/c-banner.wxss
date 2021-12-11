@@ -1,0 +1,13 @@
+
+.main.data-v-97cf4a78 {
+	height: 330rpx;
+}
+.cover.data-v-97cf4a78 {
+	width: 670rpx;
+	height: 250rpx;
+}
+.title.data-v-97cf4a78 {
+	top: 0;
+	right: 20rpx;
+}
+

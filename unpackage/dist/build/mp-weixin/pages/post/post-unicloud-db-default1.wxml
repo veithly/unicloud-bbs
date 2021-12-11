@@ -1,0 +1,1 @@
+<block wx:if="{{error}}"><view class="data-v-86843b84">{{error.message}}</view></block><block wx:else><view class="data-v-86843b84"><c-follow vue-id="0d4588c0-10" f_id="{{data[0]&&data[0]._id}}" data-event-opts="{{[['^follow',[['resolveFollow']]]]}}" bind:follow="__e" class="data-v-86843b84" bind:__l="__l"></c-follow></view></block>

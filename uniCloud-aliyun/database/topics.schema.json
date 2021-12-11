@@ -1,0 +1,61 @@
+{
+	"bsonType": "object",
+	"required": ["cover", "title"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null", // 必须登录
+		"update": "doc.author == auth.uid", // 必须是作者本人
+		"delete": "doc.author == auth.uid", // // 必须是作者本人
+		"count": "auth.uid != null" // 必须登录
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"author": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"forceDefaultValue": {
+				"$env":"uid"
+			},
+			"description": "话题作者"
+		},
+		"title": {
+			"bsonType":"string",
+			"maxLength": 5,
+			"errorMessage": {
+				"required":"{description}必填",
+				"maxLength":"{description}长度不能超过5"
+			},
+			"validateFunction":"topic_repeat",
+			"description":"话题标题"
+		},
+		"desc": {
+			"bsonType":"string",
+			"maxLength": 20,
+			"errorMessage": {
+				"maxLength":"{description}长度不能超过20"
+			},
+			"description":"话题描述"
+		},
+		"cover": {
+			"bsonType":"file",
+			"fileMediaType":"image",
+			"description":"话题封面"
+		},
+		"create_date": {
+			"bsonType":"timestamp",
+			"forceDefaultValue": {
+				"$env":"now"
+			},
+			"description":"话题创建时间"
+		},
+		"update_date": {
+			"bsonType":"timestamp",
+			"defaultValue": {
+				"$env":"now"
+			},
+			"description":"话题更新时间"
+		}
+	}
+}

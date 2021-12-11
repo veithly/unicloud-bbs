@@ -1,0 +1,1 @@
+<view><c-status-bar vue-id="13400bb8-1" bind:__l="__l"></c-status-bar><c-page-header vue-id="13400bb8-2" title="设置" bind:__l="__l"></c-page-header><c-button class="m-4 main-bg-color text-white" bind:onTap="__e" vue-id="13400bb8-3" data-event-opts="{{[['^onTap',[['logout']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">退出登录</c-button></view>

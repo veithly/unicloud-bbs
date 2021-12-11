@@ -1,0 +1,4 @@
+<template>
+	<view class="bg-hover-light my-2" style="height: 10rpx;opacity: .4;" />
+</template>
+

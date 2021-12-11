@@ -1,0 +1,1 @@
+<button class="vivify duration-150" hover-stay-time="250" hover-class="pulsate" disabled="{{disabled}}" data-event-opts="{{[['tap',[['$emit',['on-tap']]]]]}}" bindtap="__e"><slot></slot></button>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "c-button": "/components/c-button/c-button"
+  }
+}

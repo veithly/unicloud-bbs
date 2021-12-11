@@ -1,0 +1,1 @@
+<view class="input-bg-color px-4 flex align-center justify-between position-fixed bottom-0 main data-v-5217899b"><slot></slot></view>

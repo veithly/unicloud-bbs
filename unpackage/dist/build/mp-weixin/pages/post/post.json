@@ -1,0 +1,25 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "post-unicloud-db-default": "/pages/post/post-unicloud-db-default",
+    "post-unicloud-db-default1": "/pages/post/post-unicloud-db-default1",
+    "post-c-temp-default": "/pages/post/post-c-temp-default",
+    "c-sticky": "/components/c-sticky/c-sticky",
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "c-image": "/components/c-image/c-image",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "c-error-tip": "/components/c-error-tip/c-error-tip",
+    "c-scroll-load-more": "/components/c-scroll-load-more/c-scroll-load-more",
+    "mp-html": "/components/mp-html/mp-html",
+    "c-back-top": "/components/c-back-top/c-back-top",
+    "c-desc": "/components/c-desc/c-desc",
+    "c-comment": "/components/c-comment/c-comment",
+    "c-temp": "/components/c-temp/c-temp",
+    "c-header": "/pages/post/header",
+    "c-collect": "/pages/post/collect",
+    "c-follow": "/pages/post/follow",
+    "c-post-comment-release": "/pages/post/post-comment-release"
+  }
+}

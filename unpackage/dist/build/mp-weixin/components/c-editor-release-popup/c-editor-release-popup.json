@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "c-button": "/components/c-button/c-button"
+  },
+  "component": true
+}

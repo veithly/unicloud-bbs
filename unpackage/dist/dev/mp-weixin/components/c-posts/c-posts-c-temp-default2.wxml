@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['love',['$0','$1'],['op',[['values','_id',v.$orig._id]]]]]]]}}" class="{{['data-v-17bb81d8',v.m1]}}" bindtap="__e"><text class="icon-like1 mr-1 action-icon data-v-17bb81d8"></text><block wx:if="{{v.$orig.loveNum}}"><text class="data-v-17bb81d8">{{v.$orig.loveNum}}</text></block></view>

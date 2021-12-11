@@ -1,0 +1,58 @@
+<template>
+	<view :style="{ height: `${screenHeight - 150}px`}" class="flex align-center justify-center">
+		<view class="flex flex-column" style="justify-content: center;align-items: center;">
+			<image src="/static/transition/loading.gif" mode="aspectFill" class="loading-gif" />
+			<text class="mt-3 loading-text">loading...</text>
+		</view>
+	</view>
+</template>
+
+<script>
+	import $U from "@/common/js"
+	import $A from "@/api"
+	export default {
+		data() {
+			return {
+				screenHeight: uni.getSystemInfoSync().screenHeight
+			}
+		},
+		methods: {
+			toHomePage() {
+				uni.switchTab({
+					url: '/pages/tabbar/home/home'
+				})
+			},
+			toLoginPage() {
+				uni.reLaunch({
+					url: '/pages/login/login'
+				})
+			},
+			async checkLogin() {
+				try{
+					
+					const { result } = await $A.user.checkLogin()
+					$U.refreshUser(result)
+					
+					this.toHomePage()
+				}catch(e){
+					$U.notice("请登录")
+					this.toLoginPage()
+				}
+			}
+		},
+		async onLoad() {
+			await this.checkLogin()
+		}
+	}
+</script>
+
+<style scoped>
+	.loading-gif {
+		width: 100rpx;
+		height: 100rpx;
+	}
+	
+	.loading-text {
+		color: #ff584f;
+	}
+</style>

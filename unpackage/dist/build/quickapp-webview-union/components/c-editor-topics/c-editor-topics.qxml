@@ -1,0 +1,1 @@
+<block qa:if="{{topics.length>0}}"><view class="input-bg-color flex align-center position-fixed px-4 main data-v-3da95aa1" style="{{'bottom:'+(bottom)+';'}}"><block qa:for="{{topics}}" qa:for-item="topic" qa:for-index="__i0__" qa:key="_id"><text class="mx-2 data-v-3da95aa1">{{"#"+topic.title}}</text></block></view></block>

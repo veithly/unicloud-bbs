@@ -1,0 +1,1 @@
+<view class="flex justify-center align-center font p-2 rounded main data-v-478712de"><slot></slot></view>

@@ -1,0 +1,1 @@
+<view class="flex flex-column align-center data-v-77ef1d44"><c-image class="cover data-v-77ef1d44" vue-id="85f38930-1" src="{{$root.m0}}" mode="aspectFill" bind:__l="__l"></c-image><text class="main-color p-2 careful-bg-color data-v-77ef1d44">{{msg}}</text></view>

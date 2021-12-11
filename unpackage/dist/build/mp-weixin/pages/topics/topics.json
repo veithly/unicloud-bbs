@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "c-sticky": "/components/c-sticky/c-sticky",
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "c-search-bar": "/components/c-search-bar/c-search-bar",
+    "c-alert": "/components/c-alert/c-alert",
+    "c-desc": "/components/c-desc/c-desc",
+    "c-topics-release-popup": "/components/c-topics-release-popup/c-topics-release-popup",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "c-error-tip": "/components/c-error-tip/c-error-tip",
+    "c-topic": "/components/c-topic/c-topic",
+    "c-scroll-load-more": "/components/c-scroll-load-more/c-scroll-load-more",
+    "c-topics-carry-confirm": "/components/c-topics-carry-confirm/c-topics-carry-confirm",
+    "c-back-top": "/components/c-back-top/c-back-top"
+  }
+}

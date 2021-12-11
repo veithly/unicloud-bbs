@@ -1,0 +1,12 @@
+{
+	"passwordSecret": "ASDJE@JQHEKJW^&^&$",
+	"tokenSecret": "AHDJHQJWEUYYSD&%",
+	"tokenExpiresIn": 604800,
+	"tokenExpiresThreshold": 86400,
+	"bindTokenToDevice": false,
+	"passwordErrorLimit": 6,
+	"passwordErrorRetryTime": 60,
+	"autoSetInviteCode": false,
+	"forceInviteCode": false,
+	"removePermissionAndRoleFromToken": false
+}

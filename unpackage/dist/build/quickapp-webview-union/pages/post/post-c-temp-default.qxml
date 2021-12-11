@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['postPraise',['$0'],['op']]]]]}}" class="icon-dianzan action-icon mr-1 data-v-86843b84" bindtap="__e"></text><block qa:if="{{post.praiseNum}}"><text class="data-v-86843b84">{{post.praiseNum}}</text></block>

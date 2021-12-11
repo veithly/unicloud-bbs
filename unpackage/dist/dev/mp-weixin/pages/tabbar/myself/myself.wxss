@@ -1,0 +1,10 @@
+
+.avatar {
+	width: 250rpx;
+	height: 300rpx;
+	border-radius: 10rpx 60rpx 60rpx 30rpx;
+}
+.desc {
+	width: 350rpx;
+}
+

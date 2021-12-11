@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "c-error-tip": "/components/c-error-tip/c-error-tip",
+    "c-image": "/components/c-image/c-image"
+  }
+}

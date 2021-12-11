@@ -1,0 +1,1 @@
+<view class="data-v-65897df8"><uni-load-more vue-id="4ba53efc-1" status="{{loading?'loading':hasMore?'more':'noMore'}}" icon-type="circle" class="data-v-65897df8" bind:__l="__l"></uni-load-more><block wx:if="{{!hasMore}}"><view class="seat data-v-65897df8"></view></block></view>

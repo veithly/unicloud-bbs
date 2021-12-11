@@ -1,0 +1,1 @@
+<block wx:if="{{!fronzenShow}}"><view class="{{['position-fixed','input-bg-color','rounded','flex','align-center','justify-center','shadow','vivify','main','data-v-17d92ee5',animation]}}" style="{{(diyPosition)}}"><view data-event-opts="{{[['tap',[['backTop',['$event']]]]]}}" class="iconfont icon-huidaodingbu icon data-v-17d92ee5" bindtap="__e"></view></view></block>

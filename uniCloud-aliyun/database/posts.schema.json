@@ -1,0 +1,89 @@
+{
+	"bsonType": "object",
+	"required": ["title"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null", // 必须登录
+		"update": "doc.author == auth.uid", // 必须是作者本人
+		"delete": "doc.author == auth.uid", // // 必须是作者本人
+		"count": "auth.uid != null" // 必须登录
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"author": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"forceDefaultValue": {
+				"$env":"uid"
+			},
+			"description": "作者"
+		},
+		"title": {
+			"bsonType":"string",
+			"maxLength": 20,
+			"errorMessage": {
+				"required":"{description}必填",
+				"maxLength":"{description}长度不能超过20"
+			},
+			"description":"标题"
+		},
+		"content": {
+			"bsonType":"string",
+			"defaultValue":"",
+			"description":"内容"
+		},
+		"imgs": {
+			"bsonType":"array",
+			"arrayType":"object",
+			"required": ["id", "url"],
+			"properties": {
+				"id": {
+					"bsonType":"string",
+					"description":"图片id"
+				},
+				"url": {
+					"bsonType":"string",
+					"description":"图片地址"
+				}
+			},
+			"description":"帖子图片集"
+		},
+		"topic_ids": {
+			"bsonType":"array",
+			"arrayType":"string",
+			"foreignKey":"topics._id",
+			"defaultValue": [],
+			"description":"帖子话题集"
+		},
+		"praise_user_ids": {
+			"bsonType":"array",
+			"arrayType":"string",
+			"foreignKey":"uni-id-users._id",
+			"defaultValue": [],
+			"description":"赞帖子的用户集"
+		},
+		"love_user_ids": {
+			"bsonType":"array",
+			"arrayType":"string",
+			"foreignKey":"uni-id-users._id",
+			"defaultValue": [],
+			"description":"喜爱帖子的用户集"
+		},
+		"create_date": {
+			"bsonType":"timestamp",
+			"forceDefaultValue": {
+				"$env":"now"
+			},
+			"description":"帖子创建时间"
+		},
+		"update_date": {
+			"bsonType":"timestamp",
+			"defaultValue": {
+				"$env":"now"
+			},
+			"description":"帖子更新时间"
+		}
+	}
+}

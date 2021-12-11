@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "c-image": "/components/c-image/c-image",
+    "c-divider": "/components/c-divider/c-divider"
+  },
+  "component": true
+}

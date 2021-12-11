@@ -1,0 +1,15 @@
+
+.avatar.data-v-80842834 {
+	width: 250rpx;
+	height: 250rpx;
+	border-radius: 100%;
+}
+.user-container.data-v-80842834 {
+	width: 300rpx;
+	height: 300rpx;
+}
+.cover.data-v-80842834 {
+	width: 315rpx;
+	height: 350rpx;
+}
+

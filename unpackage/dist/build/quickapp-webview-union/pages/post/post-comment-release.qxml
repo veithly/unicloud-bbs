@@ -1,0 +1,1 @@
+<uni-easyinput class="rounded input-bg-color" vue-id="0ce4c18c-1" placeholder="发布评论......" inputBorder="{{false}}" confirmType="send" value="{{comment}}" data-event-opts="{{[['^confirm',[['release']]],['^input',[['__set_model',['','comment','$event',[]]]]]]}}" bind:confirm="__e" bind:input="__e" bind:__l="__l"></uni-easyinput>

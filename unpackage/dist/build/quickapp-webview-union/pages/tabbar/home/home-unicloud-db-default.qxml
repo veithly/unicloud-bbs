@@ -1,0 +1,1 @@
+<block qa:if="{{error}}"><c-error-tip vue-id="07702ed6-5" msg="{{error.message}}" class="data-v-fcea5044" bind:__l="__l"></c-error-tip></block><block qa:else><view class="data-v-fcea5044"><c-banner vue-id="07702ed6-6" values="{{data}}" class="data-v-fcea5044" bind:__l="__l"></c-banner></view></block>

@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "c-posts-c-temp-default": "/components/c-posts/c-posts-c-temp-default",
+    "c-posts-c-temp-default1": "/components/c-posts/c-posts-c-temp-default1",
+    "c-posts-c-temp-default2": "/components/c-posts/c-posts-c-temp-default2",
+    "c-image": "/components/c-image/c-image",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "c-temp": "/components/c-temp/c-temp",
+    "c-divider": "/components/c-divider/c-divider"
+  },
+  "component": true
+}

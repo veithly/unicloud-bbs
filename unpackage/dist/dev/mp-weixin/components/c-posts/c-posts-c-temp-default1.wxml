@@ -1,0 +1,1 @@
+<text class="icon-pinglun mr-1 action-icon data-v-17bb81d8"></text><block wx:if="{{op.count}}"><text class="data-v-17bb81d8">{{op.count}}</text></block>

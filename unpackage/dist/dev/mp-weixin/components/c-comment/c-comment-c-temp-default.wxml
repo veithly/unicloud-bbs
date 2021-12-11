@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['praise',['$0'],['op']]]]]}}" class="icon-dianzan action-icon mr-2 data-v-436f4bf0" catchtap="__e"></text><block wx:if="{{v.praiseNum}}"><text class="data-v-436f4bf0">{{v.praiseNum}}</text></block>

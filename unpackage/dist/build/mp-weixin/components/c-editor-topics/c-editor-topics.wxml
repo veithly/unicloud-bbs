@@ -1,0 +1,1 @@
+<block wx:if="{{topics.length>0}}"><view class="input-bg-color flex align-center position-fixed px-4 main data-v-3da95aa1" style="{{'bottom:'+(bottom)+';'}}"><block wx:for="{{topics}}" wx:for-item="topic" wx:for-index="__i0__" wx:key="_id"><text class="mx-2 data-v-3da95aa1">{{"#"+topic.title}}</text></block></view></block>

@@ -1,0 +1,59 @@
+/* css变量 */
+page {
+	--main-color: #ff584f;
+	--secondary-color: #a5a5a5;
+	--warn-color: #FF9C24;
+	--careful-color: #ffebee;
+	--input-color: #f3f4f6;
+	--avatar-default-color:  #f3f4f6;
+	--hover-color: rgba(255, 255, 255, 0.4);
+}
+
+.main-color {
+	color: var(--main-color);
+}
+
+.secondary-color {
+	color: var(--secondary-color);
+}
+
+
+.main-bg-color {
+	background-color: var(--main-color);
+}
+
+.careful-bg-color {
+	background-color: var(--careful-color);
+}
+
+.input-bg-color {
+	background-color: var(--input-color);
+}
+
+.transition-all {
+	transition: all 0.15s ease-in-out;
+}
+
+[i-ske=true] *, [ske=true]{
+	background-color: #ECEFF1 !important;
+	animation: blink 1s ease-in-out infinite;
+}
+
+[i-ske=false] *, [ske=false] {
+	background-color: #ECEFF1 !important;
+	animation: none;
+}
+
+@keyframes blink {
+	0% {
+	  opacity: 1;
+	}
+	  
+	60% {
+	  opacity: 0.5;
+	}
+	  
+	100% {
+	  opacity: 1;
+	}
+}

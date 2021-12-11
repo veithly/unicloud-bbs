@@ -1,0 +1,11 @@
+
+.page-header.data-v-20a52e1a {
+	height: 100rpx;
+}
+.back-icon.data-v-20a52e1a {
+	font-size: 50rpx;
+}
+.shadow.data-v-20a52e1a {
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+

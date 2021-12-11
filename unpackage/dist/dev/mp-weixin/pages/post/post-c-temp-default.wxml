@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['postPraise',['$0'],['op']]]]]}}" class="icon-dianzan action-icon mr-1 data-v-427e1906" bindtap="__e"></text><block wx:if="{{post.praiseNum}}"><text class="data-v-427e1906">{{post.praiseNum}}</text></block>

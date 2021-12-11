@@ -1,0 +1,67 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null", // 必须登录
+		"update": "doc.user_id == auth.uid", // 必须是作者本人
+		"delete": "doc.user_id  == auth.uid", // // 必须是作者本人
+		"count": "auth.uid != null" // 必须登录
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"forceDefaultValue": {
+				"$env":"uid"
+			},
+			"description":"评论者id"
+		},
+		"post_id": {
+			"bsonType":"string",
+			"foreignKey":"posts._id",
+			"description":"被评论文章id"
+		},
+		"comment_content": {
+			"bsonType":"string",
+			"maxLength":300,
+			"errorMessage":{
+				"maxLength":"{description}长度不能超过300"
+			},
+			"description":"评论内容"
+		},
+		"comment_type": {
+			"bsonType":[0,1],
+			"defaultValue": 0,
+			"description":"回复类型:0 针对文章，1针对评论"
+		},
+		"reply_user_id": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"description":"被回复评论用户的id, comment_type为1时有效"
+		},
+		"praise_user_ids": {
+			"bsonType":"array",
+			"arrayType":"string",
+			"foreignKey":"uni-id-users._id",
+			"defaultValue": [],
+			"description":"赞回复的用户集"
+		},
+		"reply_comment_id": {
+			"bsonType":"string",
+			"foreignKey":"comments._id",
+			"description":"被回复者的ID, comment_type为1时有效"
+		},
+		"comment_date": {
+			"bsonType":"timestamp",
+			"forceDefaultValue":{
+				"$env":"now"
+			},
+			"description":"评论时间"
+		}
+	}
+}

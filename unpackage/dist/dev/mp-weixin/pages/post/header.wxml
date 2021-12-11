@@ -1,0 +1,1 @@
+<view class="page-header px-2 flex align-center justify-between shadow data-v-20a52e1a"><block wx:if="{{canBack}}"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="iconfont icon-arrowLeft-fill back-icon data-v-20a52e1a" bindtap="__e"></view></block><view class="font-lg font-weight-bold data-v-20a52e1a" style="width:500rpx;">{{title}}</view><slot></slot></view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "c-button": "/components/c-button/c-button"
+  },
+  "component": true
+}

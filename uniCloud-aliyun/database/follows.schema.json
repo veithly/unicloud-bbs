@@ -1,0 +1,37 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["user_id", "follow_user_id"],
+	"permission": {
+		"read": true,
+		"create": "auth.uid != null", // 必须登录
+		"update": "doc.user_id == auth.uid", // 必须是作者本人
+		"delete": "doc.user_id == auth.uid", // // 必须是作者本人
+		"count": "auth.uid != null" // 必须登录
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"user_id": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"forceDefaultValue": {
+				"$env":"uid"
+			},
+			"description":"关注者id"
+		},
+		"follow_user_id": {
+			"bsonType":"string",
+			"foreignKey":"uni-id-users._id",
+			"description":"被关注者id"
+		},
+		"follow_date": {
+			"bsonType":"timestamp",
+			"forceDefaultValue": {
+				"$env":"now"
+			},
+			"description":"关注时间"
+		}
+	}
+}

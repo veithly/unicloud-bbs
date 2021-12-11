@@ -1,0 +1,163 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/transition/transition",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "pages/register/register",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},  {
+			"path": "pages/editor/editor",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		}, {
+			"path": "pages/topics/topics",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/myself/myself",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tabbar/follow/follow",
+			"style": {}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/post/post",
+            "style" : {
+				"app-plus": {
+					"softinputMode":"adjustResize"
+				},
+				"enablePullDownRefresh": true
+			}
+            
+        }
+        ,{
+            "path" : "pages/post/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" :                                                                                    
+            {
+				"app-plus":{
+					"softinputMode":"adjustResize"
+				},
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/like/like",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/collection/collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"fontSize": "14px",
+		"spacing": "2px",
+		"iconWidth": "25px",
+		"color": "#a5a5a5",
+		"selectedColor": "#ff584f",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"list": [{
+			"pagePath": "pages/tabbar/home/home",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/home-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/follow/follow",
+			"iconPath": "static/tabbar/follow.png",
+			"selectedIconPath": "static/tabbar/follow-active.png",
+			"text": "关注"
+		}, {
+			"pagePath": "pages/tabbar/myself/myself",
+			"iconPath": "static/tabbar/myself.png",
+			"selectedIconPath": "static/tabbar/myself-active.png",
+			"text": "我的"
+		}]
+	}
+}

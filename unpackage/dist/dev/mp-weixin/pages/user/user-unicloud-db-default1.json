@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "user-unicloud-db-default": "/pages/user/user-unicloud-db-default",
+    "user-unicloud-db-default1": "/pages/user/user-unicloud-db-default1",
+    "c-sticky": "/components/c-sticky/c-sticky",
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "c-image": "/components/c-image/c-image",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "c-error-tip": "/components/c-error-tip/c-error-tip",
+    "c-follow": "/pages/user/follow"
+  }
+}

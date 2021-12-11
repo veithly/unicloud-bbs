@@ -1,0 +1,12 @@
+
+.cover.data-v-4ed0ec90 {
+	width: 200rpx;
+	height: 180rpx;
+}
+[active=true].data-v-4ed0ec90 {
+	background-color: #f0f0f0;
+}
+[active=false].data-v-4ed0ec90 {
+	background-color: none;
+}
+

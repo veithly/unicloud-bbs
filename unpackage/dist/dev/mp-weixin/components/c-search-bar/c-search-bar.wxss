@@ -1,0 +1,18 @@
+
+.input.data-v-34f016f8 {
+	height: 90rpx;
+}
+.icon.data-v-34f016f8 {
+	top: 30rpx;
+	right: 50rpx;
+	font-size: 45rpx;
+}
+
+/* https://getcssscan.com/css-box-shadow-examples?ref=producthunt */
+.focus-box-shadow.data-v-34f016f8 {
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.box-shadow.data-v-34f016f8 {
+	box-shadow: rgba(136, 165, 191, 0.35) 0px 1px 8px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+

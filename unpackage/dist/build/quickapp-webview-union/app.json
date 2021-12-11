@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/transition/transition",
+    "pages/tabbar/home/home",
+    "pages/login/login",
+    "pages/editor/editor",
+    "pages/topics/topics",
+    "pages/tabbar/myself/myself",
+    "pages/tabbar/follow/follow",
+    "pages/search/search",
+    "pages/post/post",
+    "pages/post/follow",
+    "pages/comment/comment",
+    "pages/user/user",
+    "pages/setting/setting",
+    "pages/history/history",
+    "pages/like/like",
+    "pages/collection/collection"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "fontSize": "14px",
+    "spacing": "2px",
+    "iconWidth": "25px",
+    "color": "#a5a5a5",
+    "selectedColor": "#ff584f",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/home",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/follow/follow",
+        "iconPath": "static/tabbar/follow.png",
+        "selectedIconPath": "static/tabbar/follow-active.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/tabbar/myself/myself",
+        "iconPath": "static/tabbar/myself.png",
+        "selectedIconPath": "static/tabbar/myself-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "appType": "webapp",
+  "minPlatformVersion": 1070,
+  "name": "社区交友",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "package": "社区交友",
+  "usingComponents": {}
+}

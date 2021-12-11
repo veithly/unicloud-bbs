@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "c-comment-c-temp-default": "/components/c-comment/c-comment-c-temp-default",
+    "c-image": "/components/c-image/c-image",
+    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat",
+    "c-temp": "/components/c-temp/c-temp",
+    "c-divider": "/components/c-divider/c-divider"
+  },
+  "component": true
+}

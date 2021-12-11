@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "c-sticky": "/components/c-sticky/c-sticky",
+    "c-status-bar": "/components/c-status-bar/c-status-bar",
+    "c-page-header": "/components/c-page-header/c-page-header",
+    "c-search-bar": "/components/c-search-bar/c-search-bar",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "c-error-tip": "/components/c-error-tip/c-error-tip",
+    "c-posts": "/components/c-posts/c-posts",
+    "c-scroll-load-more": "/components/c-scroll-load-more/c-scroll-load-more",
+    "c-back-top": "/components/c-back-top/c-back-top"
+  }
+}

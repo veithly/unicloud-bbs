@@ -1,0 +1,1 @@
+<view class="px-2 flex align-center justify-between"><text class="font-md">{{title}}</text><text data-event-opts="{{[['tap',[['$emit',['action']]]]]}}" class="secondary-color" bindtap="__e">{{actionTitle}}</text></view>

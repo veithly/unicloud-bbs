@@ -1,0 +1,19 @@
+
+.followUserRow.data-v-6ebcacd7 {
+		height: 200rpx;
+}
+.avatar.data-v-6ebcacd7 {
+		width: 250rpx;
+		height: 160rpx;
+}
+.username.data-v-6ebcacd7 {
+		top: 10rpx;
+		right: 15rpx;
+}
+[select='true'].data-v-6ebcacd7 {
+	background-color: #e0e0e0;
+}
+[select='false'].data-v-6ebcacd7 {
+	background-color: none;
+}
+

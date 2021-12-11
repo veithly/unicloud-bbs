@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['resolveCollect',['$0'],['op']]]]]}}" class="{{['flex','flex-column','align-center','data-v-3081d634',c_id?'main-color':'']}}" bindtap="__e"><view class="iconfont icon-shoucang1 collect-icon data-v-3081d634"></view><text class="data-v-3081d634">{{c_id?'已收藏':'收藏'}}</text></view>
